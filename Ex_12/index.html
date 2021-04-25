@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create User</title>
+</head>
+
+<body>
+    <h1>Create User</h1>
+    <hr>
+    <fieldset>
+        <legend>Create User</legend>
+        <form action="create_user.html" method="GET" enctype="application/x-www-form-urlencoded">
+
+            <label for="username">Username</label>
+            <input type="text" name="username" placeholder="username" size="30" maxlength="12" id="username" required>
+            <label for="password">Password</label>
+            <input type="password" name="password" placeholder="password" size="30" maxlength="8" id="password"
+                required>
+
+            <h2>Select your favorite superhero</h2>
+            <div>
+                <input type="radio" name="superhero" id="superman" value="superman" checked>
+                <label for="superman">Superman</label>
+                <br>
+                <input type="radio" name="superhero" id="batman" value="batman">
+                <label for="batman">Batman</label>
+                <br>
+                <input type="radio" name="superhero" id="wonder" value="wonderwoman">
+                <label for="wonder">Wonder Woman</label>
+                <br>
+                <input type="radio" name="superhero" id="flash" value="flash">
+                <label for="flash">Flash</label>
+                <br>
+                <input type="radio" name="superhero" id="thor" value="thor">
+                <label for="thor">Thor</label>
+                <br>
+                <input type="radio" name="superhero" id="hulk" value="hulk">
+                <label for="hulk">Hulk</label>
+            </div>
+
+            <h2>Select your favourite video game</h2>
+
+            <div>
+                <input type="checkbox" name="videogames" id="fifa" value="fifa" checked>
+                <label for="fifa">Fifa</label>
+                <br>
+                <input type="checkbox" name="videogames" id="nhl" value="nhl">
+                <label for="nhl">NHL</label>
+                <br>
+                <input type="checkbox" name="videogames" id="evil" value="residentevil">
+                <label for="evil">Resident Evil</label>
+                <br>
+                <input type="checkbox" name="videogames" id="uncharted" value="uncharted">
+                <label for="uncharted">Uncharted</label>
+            </div>
+            <input type="hidden" name="userID" value="2300">
+            <br>
+            <input type="image" name="login" src="image/register_button.png" width="100">
+        </form>
+    </fieldset>
+
+</body>
+
+</html>
+
+<!-- Add a Document Title: Create User
+Add a Main Title: Create User
+Add an Horizontal Rule -->
+<!-- Create a form element with the following attributes:
+action: create_user.html
+method: get
+enctype: 'application/x-www-form-urlencoded' -->
+<!-- Inside the form create the following inputs:
+Create a text input with the folloging attributes:
+name: username
+placeholder: username
+size: 30
+maxlength: 12
+Add a label for this input -->
+<!-- Add a fieldset and legend elements. Legend content: User Form -->
+<!-- Create a password input with the folloging attributes:
+name: password
+size: 30
+maxlength: 8
+placeholder: password
+Add a label for this input -->
+<!-- Create a radio button group with the following values:
+Description: Select your favourite superheroe -->
+<!-- Inputs values and description: Superman, Batman, Wonder Woman, Flash, Thor & Hulk -->
+<!-- Default selected superhero can be Batman or Wonder Woman becouse they rock! your call
+Inputs name should be superheros
+Add a label for this input -->
+<!-- Create a Checkbox group with the following values:
+Description: Select your favourite video game
+Inputs values and description: Fifa, NHL, Residen Evil & Uncharted -->
+<!-- Default selected video game can be Fifa & Uncharted -->
+<!-- Inputs name should be videogames
+Add a label for this input -->
+<!-- Create a hidden input with the following attributes:
+name: userid
+value: 2300 -->
+<!-- Create a image button:
+name: login
+src: add the path to get te register_button.png image
+width and height: resize it to make the image look good -->
