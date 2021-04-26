@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create User</title>
+</head>
+
+<body>
+    <h1>Create User</h1>
+    <hr>
+    <form action="#">
+        <label for="name">Name</label>
+        <input type="text" placeholder="name" name="name" id="name" required>
+        <br>
+        <br>
+        <div>
+            <label for="movie">Choose Movie</label>
+            <select name="movie" id="movie" required>
+                <option value="wonder_woman" selected>Wonder Woman</option>
+                <option value="deadpool">Deadpool</option>
+                <option value="batman_vs_superman">Batman v Superman</option>
+                <option value="doctor_strange">Doctor Strange</option>
+                <option value="thor_ragnarok">Thor: Ragnarok</option>
+            </select>
+        </div>
+        <br><label for="textarea">Comments</label>
+        <textarea name="textarea" id="textarea" cols="30" rows="15"
+            placeholder="Please write something here"></textarea>
+        <br>
+        <br>
+        <input type="file" required>
+        <br>
+        <br>
+        <button>Clear Form</button>
+        <button>Add New User</button>
+    </form>
+</body>
+
+</html>
+
+<!-- Add a Document Title: Create User
+Add a Main Title: Create User
+Add an Horizontal Rule -->
+<!-- Create a form element with the correct attributes depending the input types
+Create a text input with the following attributes:
+name: name
+placeholder: name
+Add a label for this input -->
+<!-- Create a select with the following configuration:
+Options:
+content: Deadpool - value: deadpool
+content: Batman v Superman - value: batman_vs_superman
+content: Captain America: Civil War - value: civil_war
+content: Doctor Strange - value: doctor_strange
+content: Suicide Squad - value: suicide_squad
+content: X-Men: Apocalypse - value: apocalypse
+content: Guardians of the Galaxy Vol 2 - value: gotg_vol2
+content: Justice League - value: justice_league
+content: Logan - value: logan
+content: Spider-Man: Homecoming - value: homecoming
+content: Wonder Woman - value: wonder_woman
+content: Thor: Ragnarok - value: thor_ragnarok
+content: Black Panther - value: black_panther
+By default select Wonder Woman -->
+<!-- Create a textarea so the user knows to write the bio there -->
+<!-- Create a file input so the user can upload a avatar image -->
+<!-- Create a button with the content: Clear Form
+Create a button with the content: Add new user
+Every input will have a corresponding label with the for attribute configured (choose the ids yourself) -->
