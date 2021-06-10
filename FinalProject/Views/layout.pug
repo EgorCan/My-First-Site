@@ -1,0 +1,31 @@
+doctype html
+html(lang='en')
+  head
+    title= mbTrails
+    link(rel="stylesheet", href="/css/styles.css")
+    block styles 
+    script(src="js/scripts.js")
+    block scripts  
+
+  body
+    img#bg(src='https://lp-cms-production.imgix.net/2019-06/6b622d97ace75b0ed5fb1fea9a40b48d-manitoba.jpg?auto=format&fit=crop&ixlib=react-8.6.4&h=520&w=1312' alt='')
+    header 
+      nav
+        ul
+          li
+            div
+              a(href='#')
+                img#map(src='https://patternuniverse.com/files/images/manitoba-pattern.gif' alt='' width= '60px')
+                span mbTRAILS
+          li
+            a(href='#') contact
+          li
+            a(href='#') merch
+          li
+            a(href='#') account
+          li
+            a(href='#') 
+              img(src='https://img.icons8.com/ios/452/shopping-bag--v1.png' alt='' width= '50px')
+
+    block content
+  

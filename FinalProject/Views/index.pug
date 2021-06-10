@@ -1,0 +1,10 @@
+extend ./layout.pug
+block content
+  nav#right 
+    each item in mainMenu 
+      div.mainMenu-container 
+        a#trailType(href="/mainMenu/" + item.id)= item.name
+
+
+
+
