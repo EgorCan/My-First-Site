@@ -1,0 +1,14 @@
+extend ./layout.pug
+block content
+  h1 superheroes
+  p This displays superhero information 
+  include ./create.pug
+  each item in documents
+    div.superhero-container
+      h4= item.name
+      a(href="/superheroes/" + item._id) details
+      br
+      a(href="/edit/" + item._id) edit
+      br
+      a(href="/delete/" + item._id) delete
+

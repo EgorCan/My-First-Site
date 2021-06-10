@@ -1,0 +1,10 @@
+extend ./layout.pug
+
+block content
+    .create-container 
+        form(action="/edit", method="post" )
+            input(type="hidden" name="_id" value= superhero._id)
+            input(type="text", placeholder="superhero name", required="required", name="superhero", value= superhero.name)
+            input(type="text", placeholder="superhero description", required="required", name="superhero", value= superhero.description)
+            button Edit
+    a(href="/") Home
